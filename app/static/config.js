@@ -1,9 +1,9 @@
 var CONFIG = {
-    canvas: { width: 480, height: 640 },
+    canvas: { width: 640, height: 800 },
 
-    player: { width: 60, height: 65, speed: 6 },
+    player: { width: 60, height: 65, speed: 10 },
 
-    startingLives: 3,
+    startingLives: 5,
 
     items: [
         { type: "commit", color: "#238636", pts: 10, weight: 50, sym: "\u2713" },
